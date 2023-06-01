@@ -25,11 +25,8 @@ view: products {
   dimension: category {
     type: string
     sql: ${TABLE}.category ;;
-    link: {
-      label: "dresses"
-      url: "https://www.google.com/search?q=dresses&rlz=1CAQTAX_enIN1055&oq=dresses&aqs=chrome..69i57j0i131i433i512j0i512j0i433i512l2j0i512l2j0i433i512l3.5599j0j7&sourceid=chrome&ie=UTF-8"
     }
-  }
+
 
   dimension: department {
     type: string
